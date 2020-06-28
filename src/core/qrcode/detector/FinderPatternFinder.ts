@@ -692,7 +692,7 @@
                 possibleCenters.splice(3); // this is not realy necessary as we only return first 3 anyway
             }
     
-            if (possibleCodes.length > 1) return possibleCodes;
+            if (possibleCodes.length > 0) return possibleCodes;
 
             return [[
                 possibleCenters[0],
